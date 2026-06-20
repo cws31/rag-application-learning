@@ -1,15 +1,12 @@
 package com.ragDemo.ragApp.rag.chunking;
 
+//importing 
 import java.util.ArrayList;
 import java.util.List;
-
 import org.springframework.stereotype.Service;
-
 import com.ragDemo.ragApp.rag.model.DocumentChunk;
-
 @Service
 public class ResumeChunkingStrategy {
-
     private static final String[] SECTIONS = {
             "Education",
             "Projects",
